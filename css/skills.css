@@ -1,0 +1,109 @@
+.skills-container{
+    width: 600px;
+    margin: 0 0 50px 0;
+    padding: 20px 20px 20px 0;
+}
+
+.skills-container ul{
+    padding: 0;
+}
+
+.skills-container li{
+    position: relative;
+    list-style: none;
+    margin: 30px 0;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.skills-container li:before{
+    position: absolute;
+    content: '';
+    top: calc(100% + 5px);
+    left: 0;
+    width: 600px;
+    height: 12px;
+    background-color: rgba(54, 126, 223, 0.5);
+    border-radius: 1000px;
+}
+
+.skills-container li:after{
+    position: absolute;
+    content: '';
+    top: calc(100% + 5px);
+    left: 0;
+    width: 0;
+    height: 12px;
+    background-color: rgba(54, 126, 223, 1);
+    border-radius: 1000px;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.java:after{
+    animation-name: java;
+}
+
+@keyframes java{
+    to{
+        width: 90%;
+    }
+}
+
+.js:after{
+    animation-name: js;
+}
+
+@keyframes js{
+    to{
+        width: 80%;
+    }
+}
+
+.html:after{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 85%;
+    }
+}
+
+
+.css:after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 70%;
+    }
+}
+
+/*-----------typewriter animation---------*/
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
