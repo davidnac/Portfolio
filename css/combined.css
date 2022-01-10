@@ -1219,6 +1219,10 @@ html, body {
          width: 90%;
       }
     
+      .auto-slide-display-container{
+        height: fit-content;
+        }
+    
       .mySlides {
          width: 100%;
          object-fit: contain;
