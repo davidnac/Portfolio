@@ -1141,6 +1141,7 @@ html, body {
         background-color: transparent;
         border: none;
         font-size: 33px;
+        color: var(--textColor);
       }
   
       .slide-and-button-container button:hover{
@@ -1151,7 +1152,6 @@ html, body {
         display: block;
         width: 100%;
         text-align: center;
-        color: var(--textColor);
       }
    
           /*----------image slider version 2------------------*/
