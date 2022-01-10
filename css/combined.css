@@ -1021,6 +1021,20 @@ html, body {
     .slide-and-button-container{
       margin-top: 40px;
     }
+      
+     .nav-arrow-right{
+      margin-left: 7px;
+      font-size: 35px;
+     }
+
+     .nav-arrow{
+       margin-right: 7px;
+       font-size: 35px;
+     }
+
+      .inner-content{
+       margin-left: 0;
+      }
   
   }
   
