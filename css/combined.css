@@ -383,40 +383,6 @@ html, body {
     height: 350px;
 }
 
-@media only screen and (max-width: 1000px) {
-    
-    .sectionSkills .sidebarTop img{
-        display: none;
-    }
-
-    .sectionAbout img{
-       width: 85%;
-       height: auto;
-       max-height: 350px;
-       max-width: 350px;
-    }
-
-    .socialIcons{
-        margin-bottom: 30px;
-        justify-content: center;
-    } 
-
-    .section .sidebarTop{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        display: block;
-    }
-
-    .contact-line{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-      }
-
-}
-  
 /*-------------------------------------*/
 
 .skills-container{
@@ -1211,4 +1177,53 @@ html, body {
           display: none;  /* Safari and Chrome */
       }
        /*------------hide scroll bar---------------------*/
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .sectionSkills .sidebarTop img{
+        display: none;
+    }
+
+    .sectionAbout img{
+       width: 85%;
+       height: auto;
+       max-height: 350px;
+       max-width: 350px;
+    }
+
+    .socialIcons{
+        margin-bottom: 30px;
+        justify-content: center;
+    } 
+
+    .section .sidebarTop{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+
+    .contact-line{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+      }
+    
+    .logo-headline .logo-image{
+         display: none;
+      }
+    
+     .popup-inner{
+         width: 90%;
+      }
+    
+      .mySlides {
+         width: 100%;
+         object-fit: contain;
+         height: fit-content;
+       }
+
+}
   
